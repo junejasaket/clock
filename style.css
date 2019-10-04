@@ -1,0 +1,52 @@
+body{
+    height: 100vh;
+    background: url("C:/Users/avi aggarwal/Desktop/WEB DEVELOPMENT/clock/back.jpg");
+    background-size:cover;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.left p{
+    margin-top: 40px;
+    font-size: 25px;
+    padding: 0 3px;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.right p{
+    margin-top: 30px;
+    font-size: 25px;
+    padding: 0 3px;
+}
+.right img:nth-child(2)
+{
+    margin-top: 15px;
+}
+
+.footer{
+    margin-top: 350px;
+    color: #000;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.time , .date{
+    font-size: 50px;
+    color: #000;
+}
